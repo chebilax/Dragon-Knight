@@ -5,9 +5,9 @@ import Knight from "./Class/Knight.js";
 import Dragon from "./Class/Dragon.js";
 
 document.addEventListener('DOMContentLoaded', () => {
-  let startButton = document.getElementById('start-game');
-  let gameMessages = document.getElementById('game-messages');
- let playerNameElement = document.getElementsByClassName('player-name')[0];
+let startButton = document.getElementById('start-game');
+let gameMessages = document.getElementById('game-messages');
+let playerNameElement = document.getElementsByClassName('player-name')[0];
 let playerClassElement = document.getElementsByClassName('player-class')[0];
 let playerLifeElement = document.getElementsByClassName('player-life')[0];
 let playerForceElement = document.getElementsByClassName('player-force')[0];
