@@ -50,6 +50,7 @@ let opponentForceElement = document.getElementsByClassName('opponent-force')[0];
       );
 
       game.run();
+      startButton.disabled = true;
     } else {
       alert('Veuillez sélectionner un personnage et entrer votre nom avant de commencer le jeu.');
     }
